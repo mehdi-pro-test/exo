@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+ 
+        <div>
+        <h1>Contact</h1>
+        </div>
+
+    <form>
+            <div>
+        <label for="nom">Nom <sup>*</sup></label>
+        <input id="nom" type="text"required minlength="1" maxlength="10">
+             </div>
+
+
+            <div>
+                <label for="prenom">Prenom <sup>*</sup></label>
+                <input id="prenom" type="text"required minlength="1" maxlength="10">
+
+            </div>
+
+            <div>
+                <label for="prenom">Email <sup>*</sup></label>
+                <input id="nom" type="email"required minlength="1" maxlength="10">
+
+            </div>
+
+            <div>
+                <label for="telephone">Telephone</label>
+                <input type="telephone" type="number" minlength="10" maxlength="10">
+                
+            </div>
+
+            
+                <div>
+                    <label for="sujet">sujet<sup>*</sup></label>
+                    <select id="sujet" required>
+                        <option value="sujet"></option>
+                        <option value="devis">J'ai besoin d'un devis</option>
+                        <option value="annulation">Je veuc annuler mon achat</option>
+                    </select>
+                </div>
+
+            
+        <div>
+            <label for="msg">Message<sup>*</sup></label>
+            <textarea id="msg" required maxlength="300"></textarea>  <!-- text area = Un grand champs de texte-->
+        </div>
+
+        <div>
+            <button type="submit">Envoyer</button> <!-- Le button type submit envoyer les données -->
+            <button type="reset">Reset</button>  <!--le button type reset sert a reinitialiser   -->
+        </div>
+
+
+
+
+
+
+        
+        
+    </form>
+    
+</body>
+</html>
